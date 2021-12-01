@@ -5,13 +5,12 @@ export interface State {
   counter:number;
 };
 
-// your mutations types
+// your mutations enums
 export enum MutationsTypes {
   INC_COUNTER = 'SET_COUNTER'
 };
 
-// your actions types
-
+// your actions enums
 export enum ActionsTypes {
   INC_COUNTER = 'INC_COUNTER'
 };
